@@ -4,6 +4,6 @@
 
     public class Translation : ITranslation
     {
-        public string GeneratorLockedHint { get; set; } = "You can't open this now.";
+        public string GeneratorLockedTimeHint { get; set; } = "You can't open this now. The generator will unlock in {0} seconds.";
     }
 }

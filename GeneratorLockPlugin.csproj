@@ -94,7 +94,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="EventHandler.cs" />
     <Compile Include="Plugin.cs" />
