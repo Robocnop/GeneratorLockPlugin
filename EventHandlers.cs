@@ -1,4 +1,5 @@
-﻿namespace GeneratorLockPlugin
+﻿// File path: GeneratorLockPlugin/EventHandlers.cs
+namespace GeneratorLockPlugin
 {
     using System;
     using Exiled.API.Features;
@@ -48,6 +49,7 @@
         {
             if (isLocked)
             {
+                // Bloquer l'interaction avec le générateur pour tous les joueurs, peu importe s'ils ont une carte ou non
                 ev.IsAllowed = false;
                 int elapsedTime = (int)(DateTime.Now - roundStartTime).TotalSeconds;
                 int remainingTime = plugin.Config.LockDuration - elapsedTime;

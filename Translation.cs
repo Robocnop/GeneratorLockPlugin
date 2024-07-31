@@ -1,4 +1,5 @@
-﻿namespace GeneratorLockPlugin
+﻿// File path: GeneratorLockPlugin/Translation.cs
+namespace GeneratorLockPlugin
 {
     using Exiled.API.Interfaces;
 

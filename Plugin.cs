@@ -1,5 +1,4 @@
 ﻿// File path: GeneratorLockPlugin/Plugin.cs
-
 namespace GeneratorLockPlugin
 {
     using Exiled.API.Features;
@@ -11,8 +10,8 @@ namespace GeneratorLockPlugin
     {
         public override string Name => "GeneratorLockPlugin";
         public override string Author => "Robocnop";
-        public override Version Version => new Version(1, 0, 1);
-        public override Version RequiredExiledVersion => new Version(8, 9, 6);
+        public override Version Version => new Version(1, 0, 2);
+        public override Version RequiredExiledVersion => new Version(8, 11, 0);
 
         public EventHandlers EventHandlers;
 

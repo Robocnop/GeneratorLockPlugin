@@ -1,4 +1,5 @@
-﻿namespace GeneratorLockPlugin
+﻿// File path: GeneratorLockPlugin/Config.cs
+namespace GeneratorLockPlugin
 {
     using Exiled.API.Interfaces;
     using System.ComponentModel;
