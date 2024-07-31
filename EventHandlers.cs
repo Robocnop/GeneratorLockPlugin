@@ -49,13 +49,7 @@ namespace GeneratorLockPlugin
         {
             if (isLocked)
             {
-                // Check if the player has a keycard
-                if (ev.Player.CurrentItem is Exiled.API.Features.Items.Keycard)
-                {
-                    // Allow players with keycards to interact with the generator
-                    return;
-                }
-
+                // Bloquer l'interaction avec le générateur pour tous les joueurs, peu importe s'ils ont une carte ou non
                 ev.IsAllowed = false;
                 int elapsedTime = (int)(DateTime.Now - roundStartTime).TotalSeconds;
                 int remainingTime = plugin.Config.LockDuration - elapsedTime;
