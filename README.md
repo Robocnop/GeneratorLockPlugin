@@ -9,3 +9,7 @@ There is also a translation file.
 
 # Credits
 `@robocnop`
+
+#Stats
+![Alt](https://repobeats.axiom.co/api/embed/27867221fa2e06f02b1a453aee6b42e95aa4416b.svg "Repobeats analytics image")
+
